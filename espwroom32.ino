@@ -1,28 +1,4 @@
-/*
-  ESP32 + INMP441-like I2S mic
-  -> BLE GATT (IMA-ADPCM) + WAV recorder (SPIFFS) + HTTP file browser
-  + Push-to-record (hold BOOT), silence-watchdog, gain & Wi‑Fi hotkeys
-
-  Quick controls (Serial, 115200):
-    1 = LEFT/STD     2 = RIGHT/STD     3 = LEFT/MSB     4 = RIGHT/MSB
-    + = louder (lower SHIFT)           - = quieter (raise SHIFT)
-    r = start/stop recording (manual)  h = help
-    w = toggle Wi‑Fi AP on/off         W = force AP ON     X = force AP OFF
-
-  HTTP file browser:
-    AP SSID: ESP32-Recorder     PASS: micglass
-    URL: http://192.168.4.1/
-
-  Mic wiring:
-    VDD      -> 3V3
-    GND      -> GND
-    BCLK/SCK -> ESP32 GPIO26
-    LRCK/WS  -> ESP32 GPIO25
-    DOUT/SD  -> ESP32 GPIO32
-    L/R (SEL)-> 3V3  (RIGHT slot; use hotkeys if your board differs)
-
-  Before flashing: Tools → Partition Scheme → No OTA (2MB APP/2MB SPIFFS) or any with ≥1MB SPIFFS
-*/
+// ESP32 I2S microphone (INMP441) to BLE IMA-ADPCM + WAV file + HTTP file server
 
 #include <Arduino.h>
 #include <math.h>
