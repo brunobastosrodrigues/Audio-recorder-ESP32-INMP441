@@ -38,16 +38,6 @@ Connect via Serial (115200 baud):
 
 <img width="512" height="512" alt="Wiring Oct 31, 2025, 10_24_14 AM" src="https://github.com/user-attachments/assets/b276de3f-de0b-482f-a72e-c3cff12ac135" />
 
-
-| INMP441 Pin | ESP32 Pin |
-|-------------|-----------|
-| VDD         | 3V3      |
-| GND         | GND      |
-| BCLK/SCK    | GPIO26   |
-| LRCK/WS     | GPIO25   |
-| DOUT/SD     | GPIO32   |
-| L/R (SEL)   | 3V3      |
-
 **Note:** L/R (SEL) is set for RIGHT slot. Use hotkeys if your board configuration differs.
 
 ## Setup Instructions
