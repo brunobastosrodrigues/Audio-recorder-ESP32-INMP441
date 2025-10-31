@@ -36,7 +36,7 @@ Connect via Serial (115200 baud):
 ## Hardware Connection
 ### INMP441 Microphone Wiring
 
-<img width="1024" height="1024" alt="Wiring Oct 31, 2025, 10_24_14 AM" src="https://github.com/user-attachments/assets/b276de3f-de0b-482f-a72e-c3cff12ac135" />
+<img width="512" height="512" alt="Wiring Oct 31, 2025, 10_24_14 AM" src="https://github.com/user-attachments/assets/b276de3f-de0b-482f-a72e-c3cff12ac135" />
 
 
 | INMP441 Pin | ESP32 Pin |
