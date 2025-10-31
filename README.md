@@ -2,7 +2,7 @@
 
 A project combining ESP32 with INMP441 I2S microphone featuring BLE GATT (IMA-ADPCM), WAV recording (SPIFFS), and HTTP file browser functionality.
 
-![75gKo2Xy](https://github.com/user-attachments/assets/cf1169da-4a27-44fa-af84-124c856fed5c)
+<img width="512" height="512" alt="Hardware Oct 31, 2025, 10_24_14 AM" src="https://github.com/user-attachments/assets/cf1169da-4a27-44fa-af84-124c856fed5c" />
 
 
 ## Features
