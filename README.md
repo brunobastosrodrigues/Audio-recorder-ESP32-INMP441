@@ -1,8 +1,6 @@
 # ESP32-Wroom32 and INMP441: Push-to-record, BLE notify stream, HTTP audio download.
 
-A project combining ESP32 with INMP441 I2S microphone featuring BLE GATT (IMA-ADPCM), WAV recording (SPIFFS), and HTTP file browser functionality.
-
-The initial idea was to stream recorded audio via BLE but the ESP32 support isn't great. It was added an HTTP fileserver to quickly fetch the recorded audio, which is activated once the recording is stopped. Maintaining the WiFi AP active while recording was not great for the voice quality.
+A project combining ESP32 with INMP441 I2S microphone featuring BLE GATT (IMA-ADPCM), WAV recording (SPIFFS), and HTTP file browser functionality. The initial idea was to stream recorded audio via BLE but the ESP32 support isn't great. It was added an HTTP fileserver to quickly fetch the recorded audio, which is activated once the recording is stopped. Maintaining the WiFi AP active while recording was not great for the voice quality.
 
 ## Features
 - BLE GATT with IMA-ADPCM encoding (not really used anymore -- but the ESP would be visible in the BLE devices by your phone)
@@ -15,14 +13,13 @@ The initial idea was to stream recorded audio via BLE but the ESP32 support isn'
 
 ## Hardware Wiring
 
-MCU: ESP32 Wroom 32 (DevKit v1): https://de.aliexpress.com/item/1005001627605230.html
-
-Mic: https://de.aliexpress.com/item/33006854069.html 
+- MCU: ESP32 Wroom 32 (DevKit v1): https://de.aliexpress.com/item/1005001627605230.html
+- Microphone: https://de.aliexpress.com/item/33006854069.html 
 
 <img width="512" height="512" alt="Hardware Oct 31, 2025, 10_24_14 AM" src="https://github.com/user-attachments/assets/cf1169da-4a27-44fa-af84-124c856fed5c" />
 <img width="512" height="512" alt="Wiring Oct 31, 2025, 10_24_14 AM" src="https://github.com/user-attachments/assets/b276de3f-de0b-482f-a72e-c3cff12ac135" />
 
-**Note:** L/R (SEL) is set for RIGHT slot. Use hotkeys if your board configuration differs. Another hint, do the welding to have a more reliable connection on the DOUT(SD).
+**Note:** L/R (SEL) is set for RIGHT slot. Use hotkeys if your board configuration differs. Another hint, do the welding to have a more reliable connection.
 
 ## Quick Controls
 Connect via Serial (115200 baud):
