@@ -16,7 +16,8 @@ A project combining ESP32 with INMP441 I2S microphone featuring BLE GATT (IMA-AD
 - MCU: ESP32 Wroom 32 (DevKit v1): https://de.aliexpress.com/item/1005001627605230.html
 - Microphone: https://de.aliexpress.com/item/33006854069.html 
 
-<img width="512" height="512" alt="Hardware Oct 31, 2025, 10_24_14 AM" src="https://github.com/user-attachments/assets/cf1169da-4a27-44fa-af84-124c856fed5c" />
+<img width="256" height="256" alt="Hardware Oct 31, 2025, 10_24_14 AM" src="https://github.com/user-attachments/assets/cf1169da-4a27-44fa-af84-124c856fed5c" />
+<img width="256" height="256" alt="INMP441 Oct 31, 2025, 10_24_14 AM" src="https://github.com/user-attachments/assets/ac3a9e59-3bdc-43d6-9727-c5b421ffc8ca" />
 <img width="512" height="512" alt="Wiring Oct 31, 2025, 10_24_14 AM" src="https://github.com/user-attachments/assets/b276de3f-de0b-482f-a72e-c3cff12ac135" />
 
 **Note:** L/R (SEL) is set for RIGHT slot. Use hotkeys if your board configuration differs. Another hint, do the welding to have a more reliable connection.
