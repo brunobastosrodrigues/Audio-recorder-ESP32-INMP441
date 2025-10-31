@@ -52,3 +52,7 @@ Before flashing, configure Arduino IDE:
   
 <img width="470" height="91" alt="image" src="https://github.com/user-attachments/assets/14c1a285-df6a-4a8a-9920-186eb9a4cc8a" />
 
+## Output sample
+
+[rec-020.wav](https://github.com/user-attachments/files/23260313/rec-020.wav)
+
