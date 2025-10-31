@@ -1,8 +1,6 @@
-# ESP32-INMP441
+# ESP32-Wroom32 and INMP441: Push-to-record, BLE notify stream, HTTP audio download.
 
 A project combining ESP32 with INMP441 I2S microphone featuring BLE GATT (IMA-ADPCM), WAV recording (SPIFFS), and HTTP file browser functionality.
-
-
 
 ## Hardware Connection
 
