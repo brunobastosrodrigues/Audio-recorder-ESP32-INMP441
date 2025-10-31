@@ -2,8 +2,13 @@
 
 A project combining ESP32 with INMP441 I2S microphone featuring BLE GATT (IMA-ADPCM), WAV recording (SPIFFS), and HTTP file browser functionality.
 
-<img width="512" height="512" alt="Hardware Oct 31, 2025, 10_24_14 AM" src="https://github.com/user-attachments/assets/cf1169da-4a27-44fa-af84-124c856fed5c" />
 
+
+## Hardware Connection
+
+<img width="512" height="512" alt="Hardware Oct 31, 2025, 10_24_14 AM" src="https://github.com/user-attachments/assets/cf1169da-4a27-44fa-af84-124c856fed5c" />
+<img width="512" height="512" alt="Wiring Oct 31, 2025, 10_24_14 AM" src="https://github.com/user-attachments/assets/b276de3f-de0b-482f-a72e-c3cff12ac135" />
+**Note:** L/R (SEL) is set for RIGHT slot. Use hotkeys if your board configuration differs.
 
 ## Features
 - BLE GATT with IMA-ADPCM encoding
@@ -36,12 +41,7 @@ Connect via Serial (115200 baud):
 - Password: `micglass`
 - URL: `http://192.168.4.1/`
 
-## Hardware Connection
-### INMP441 Microphone Wiring
 
-<img width="512" height="512" alt="Wiring Oct 31, 2025, 10_24_14 AM" src="https://github.com/user-attachments/assets/b276de3f-de0b-482f-a72e-c3cff12ac135" />
-
-**Note:** L/R (SEL) is set for RIGHT slot. Use hotkeys if your board configuration differs.
 
 ## Setup Instructions
 Before flashing, configure Arduino IDE:
